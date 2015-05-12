@@ -1,0 +1,10 @@
+SublimeLinter-redpen
+-------------------------------
+This linter plugin for SublimeLinter provides an interface to RedPen ( http://redpen.cc/ ).
+
+** IMPORTANT! **
+
+Before this plugin will activate, you *must*
+follow the installation instructions here:
+
+https://github.com/taky/SublimeLinter-redpen
