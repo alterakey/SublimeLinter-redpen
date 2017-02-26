@@ -71,6 +71,5 @@ class Redpen(Linter):
             col = None
             line_num = error_json.get("lineNum", None)
 
-        return error_json.get("sentence",
-                              None), None if line_num is None else line_num - 1, col, None, True, error_json.get(
-            "message", ""), None
+        return error_json.get("sentence", None), None if line_num is None else line_num - 1, \
+            col, None, True, error_json.get("message", ""), None
